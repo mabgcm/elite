@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         // Server settings
-        $mail->SMTPDebug = 2; // Set to 2 for debugging (0 for production use)
+        $mail->SMTPDebug = 0; // Set to 2 for debugging (0 for production use)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
