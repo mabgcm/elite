@@ -7,7 +7,7 @@ require 'vendor/autoload.php'; // Include PHPMailer library
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Set your Gmail email address and password
-    $emailAddress = 'gmail@gmail.com';
+    $emailAddress = 'bugucam@gmail.com';
     $emailPassword = 'Ma2301li.';
 
     // Create a new PHPMailer instance
