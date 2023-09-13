@@ -3313,3 +3313,9 @@ only screen and (max-device-width: 767px) {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.legacy {
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
